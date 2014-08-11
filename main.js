@@ -33,5 +33,5 @@ relay.on("ready", function relayReady () {
 			res.end();
 		}, DURATION);
 	});
-	srv.listen("80");
+	srv.listen(80);
 });
